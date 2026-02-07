@@ -21,8 +21,8 @@ const DEFAULT_PLAYFUL_ITEMS = [
     src: "assets/Min Yoongi Singing GIF.gif",
     alt: "Dancing men",
   },
-  { type: "video", src: "assets/935b2fe7-1327-4ce9-bbd7-7621eff89865.mov" },
-  { type: "video", src: "assets/d57900a2-4d2b-4309-bb49-64376d8ff3ea.mov" },
+  { type: "video", src: "assets/935b2fe7-1327-4ce9-bbd7-7621eff89865.mp4" },
+  { type: "video", src: "assets/d57900a2-4d2b-4309-bb49-64376d8ff3ea.mp4" },
 ];
 
 const DODGE_PADDING = 12;
