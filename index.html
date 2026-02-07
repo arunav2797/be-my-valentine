@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page" data-component="valentine">
+      <section class="card" aria-live="polite">
+        <p class="eyebrow">Hi Meanie! ❤️</p>
+        <h1 class="title">Will you be my valentine?</h1>
+        <p class="subtitle">Choose with your heart.</p>
+        <div class="actions" role="group" aria-label="Valentine response">
+          <button class="btn btn-yes" data-action="yes">Yes</button>
+          <button class="btn btn-no" data-action="no">No</button>
+        </div>
+        <p class="response" data-role="response">&nbsp;</p>
+      </section>
+      <div class="fx-layer" aria-hidden="true"></div>
+      <div class="ambient" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+      </div>
+    </main>
+    <script defer src="app.js"></script>
+  </body>
+</html>
